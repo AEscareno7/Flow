@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="txt"> 
+            <h1>No solo te pensé hoy...</h1>
+        </div>
+       
+        <div>
+            <button id="redirectButton">Click</button>
+        </div>
+    </div>
+    <script>
+        var button = document.getElementById("redirectButton");
+
+        button.addEventListener("click", function() {
+            window.location.href = "./flow/index.html";
+        });
+    </script>
+</body>
+</html>
